@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Normal CSS -->
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/fa/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <title>Digicity</title>
+</head>
+
+<body>
+    <div class="container" id="company-header">
+        <div class="row" id="company-header-1">
+            <div class="col-md-4 col-sm-3  col-xs-2">
+                <a href="index.html">
+                    <img class="img-fluid" src="assets/img/logo.png" alt="digicity" width="250" height="50">
+                </a>
+            </div>
+            <div class="col-md-5 col-sm-4  col-xs-1">
+                <div class="input-group img-fluid" id="search-bar">
+                    <input type="text" class="form-control" id="search" placeholder="Search products,Shops..">
+                    <div class="input-group-append">
+                        <button class="btn btn-light" id="go" type="button">G0</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-5  col-xs-1">
+                <i class="fas fa-user"></i>
+                Welcome
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i id="fav" class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button"><a href="profile.html">My profile</a></button>
+                        <hr>
+                        <button class="dropdown-item" type="button"><a href="list.html">My List</a></button>
+                        <hr>
+                        <button class="dropdown-item" type="button"><a href="order.html">My order</a></button>
+                        <hr>
+                        <button class="dropdown-item" type="button"><a href="login-signup.html">Logout</a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a class="location-name" href="#">Kochi,Kerala</a>
+                        <button type="button" class="btn btn-light" id="setting-btn" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content=""><i class="fas fa-cog"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="navbar-brand"></div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Home</a>
+                                <a class="nav-item nav-link" href="shop.html">Shops</a>
+                                <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+                                <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
+                                <a class="nav-item nav-link" href="offers.html">Offers</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Breadcrumbs-->
+    <div class="container">
+        <div class="bread">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+                    <li class="breadcrumb-item"><a href="shop.html">Shop view</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Review</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="review-box  shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="row">
+                <div class="col">
+                    <h4>Shop Name</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <div class="rating_point">(3/5)</div>
+                    </div>
+
+
+                    <a class="btn  border-secondary reviewbtn" href="review.html">Review(3)</a>
+
+                    <!--Review form textbox here-->
+                    <form>
+                        <div class="form-group">
+                            <label for="review">Write your review..</label>
+                            <textarea class="form-control" id="review" rows="4"></textarea>
+                        </div>
+                        <div class="col-md-12 col-sm-6 text-md-right text-sm-right">
+                            <button class="btn btn-primary reviewbtn" type="button" type="submit">Submit</button>
+                        </div>
+
+
+                        <div class="rating">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <div class="rating_point">(0/5)</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>
